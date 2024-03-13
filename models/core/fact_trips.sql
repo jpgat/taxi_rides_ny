@@ -48,3 +48,4 @@ inner join
 inner join
     dim_zones as dropoff_zone
     on trips_unioned.dropoff_locationid = dropoff_zone.locationid
+    
